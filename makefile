@@ -15,7 +15,7 @@ build:
 	docker run --name ${CONTAINER_NAME} --rm --user ${CONTAINER_USER} -v ${PWD}:/app --workdir /app/${PROJECT_NAME} ${IMAGE} build
 
 serve:
-	docker run --name ${CONTAINER_NAME} --rm --user ${CONTAINER_USER} -v ${PWD}:/app --workdir /app/${PROJECT_NAME} -p 8111:8111 ${IMAGE} serve --interface 0.0.0.0 --port 8111 --base-url localhost
+	docker run --name ${CONTAINER_NAME} --rm --user ${CONTAINER_USER} -v ${PWD}:/app --workdir /app -p 8111:8111 ${IMAGE} serve --interface 0.0.0.0 --port 8111 --base-url localhost
 
 date:
 	date +'%Y-%m-%dT%H:%M:%SZ' --utc

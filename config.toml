@@ -1,5 +1,6 @@
-base_url = "https://deepthought-theme.netlify.app"
-title = "DeepThought"
+# base_url = "https://blog.etheve.eu"
+base_url = "http://localhost:8111"
+title = "Guileas blog"
 default_language = "en"
 highlight_code = true
 highlight_theme = "one-dark"
@@ -9,7 +10,9 @@ taxonomies = [
 	{ name = "categories", feed = true, paginate_by = 10 },
 	{ name = "tags", fees = true, paginate_by = 10 },
 ]
-languages = []
+languages = [
+	{code="fr"},
+]
 compile_sass = true
 build_search_index = true
 ignored_content = []
@@ -27,14 +30,19 @@ anchors = "on"
 [translations]
 
 [extra]
-
-
 navbar_items = [
-	{ url = "$BASE_URL/", name = "Home" },
-	{ url = "$BASE_URL/posts", name = "Posts" },
-	{ url = "$BASE_URL/docs", name = "Docs" },
-	{ url = "$BASE_URL/tags", name = "Tags" },
-	{ url = "$BASE_URL/categories", name = "Categories" },
+	{code = "en", nav_items = [
+		{ url = "/", name = "Home" },
+		{ url = "/posts", name = "Posts" },
+		{ url = "/docs", name = "Docs" },
+		{ url = "/tags", name = "Tags" },
+		{ url = "/categories", name = "Categories" }
+	]},
+	{ code = "fr", nav_items = [
+		{ url = "/", name = "Accueil" },
+		{ url = "/posts", name = "Posts" },
+	]}
+	
 ]
 
 [extra.favicon]
@@ -45,24 +53,20 @@ safari_pinned_tab = "/icons/safari-pinned-tab.svg"
 webmanifest = "/icons/site.webmanifest"
 
 [extra.author]
-name = "DeepThought"
+name = "Guileas"
 avatar = "/images/avatar.png"
 
 [extra.social]
-facebook = "RatanShreshtha"
-github = "RatanShreshtha"
-gitlab = "ratanshreshtha"
-keybase = "RatanShreshtha"
-linkedin = "ratanshreshtha"
-stackoverflow = "3728911"
-email = "deepthought@gmail.com"
-twitter = "RatanShreshtha"
+github = "Guileas"
+gitlab = "guileas"
+linkedin = "gwenolaetheve"
+stackoverflow = "14186891"
 
 [extra.analytics]
-google = "UA-176984489-2"
+google = ""
 
 [extra.commenting]
-hyvor = "1967"
+hyvor = ""
 
 [extra.mapbox]
-access_token = "pk.eyJ1IjoicmF0YW5zaHJlc2h0aGEiLCJhIjoiY2tla2s2NmM3MDd0ZzJzbXFtc3Y2YmU0NyJ9.0RhUnJPKbxHWw3xGPnnBlA"
+access_token = ""
