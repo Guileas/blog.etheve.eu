@@ -1,5 +1,4 @@
-# base_url = "https://blog.etheve.eu"
-base_url = "http://localhost:8111"
+base_url = "https://blog.etheve.eu"
 title = "Guileas blog"
 default_language = "en"
 highlight_code = true
