@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>Guileas blog</title>
+        <link>https://blog.etheve.eu</link>
+        <description></description>
+        <generator>Zola</generator>
+        <language>en</language>
+        <atom:link href="https://blog.etheve.eu/rss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Mon, 31 Aug 2020 00:00:00 +0000</lastBuildDate>
+        <item>
+            <title>Welcome to DeepThought</title>
+            <pubDate>Mon, 31 Aug 2020 00:00:00 +0000</pubDate>
+            <link>https://blog.etheve.eu/docs/welcome-to-deep-thought/</link>
+            <guid>https://blog.etheve.eu/docs/welcome-to-deep-thought/</guid>
+            <description>&lt;p&gt;This is a small example post of stuff you can do with the &lt;code&gt;DeepThought&lt;&#x2F;code&gt; theme.
+We&#x27;ll try to represent all possible markdown and shortcode combinations here
+so you can develop easily.&lt;&#x2F;p&gt;
+</description>
+        </item>
+        <item>
+            <title>Config Options</title>
+            <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
+            <link>https://blog.etheve.eu/docs/config-options/</link>
+            <guid>https://blog.etheve.eu/docs/config-options/</guid>
+            <description>&lt;p&gt;DeepThought theme provides some config option like option to add favicon to your site, add avatar for profile, setup social links for the profile etc&lt;&#x2F;p&gt;
+</description>
+        </item>
+        <item>
+            <title>Extended Shortcodes</title>
+            <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
+            <link>https://blog.etheve.eu/docs/extended-shortcodes/</link>
+            <guid>https://blog.etheve.eu/docs/extended-shortcodes/</guid>
+            <description>&lt;p&gt;DeepThought theme provides multiple shortcodes on top of built-in ones in Zola.&lt;&#x2F;p&gt;
+</description>
+        </item>
+        <item>
+            <title>Basic Markdown Syntax</title>
+            <pubDate>Fri, 28 Aug 2020 00:00:00 +0000</pubDate>
+            <link>https://blog.etheve.eu/docs/basic-markdown-syntax/</link>
+            <guid>https://blog.etheve.eu/docs/basic-markdown-syntax/</guid>
+            <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Zola content files.&lt;&#x2F;p&gt;
+&lt;!--more--&gt;
+&lt;p&gt;Let&#x27;s face it: Writing content for the Web is tiresome. WYSIWYG editors help alleviate this task, but they generally result in horrible code, or worse yet, ugly web pages.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Markdown&lt;&#x2F;strong&gt; is a better way to write &lt;strong&gt;HTML&lt;&#x2F;strong&gt;, without all the complexities and ugliness that usually accompanies it.&lt;&#x2F;p&gt;
+&lt;p&gt;Some of the key benefits are:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Markdown is simple to learn, with minimal extra characters, so it&#x27;s also quicker to write content.&lt;&#x2F;li&gt;
+&lt;li&gt;Less chance of errors when writing in Markdown.&lt;&#x2F;li&gt;
+&lt;li&gt;Produces valid XHTML output.&lt;&#x2F;li&gt;
+&lt;li&gt;Keeps the content and the visual display separate, so you cannot mess up the look of your site.&lt;&#x2F;li&gt;
+&lt;li&gt;Write in any text editor or Markdown application you like.&lt;&#x2F;li&gt;
+&lt;li&gt;Markdown is a joy to use!&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;Without further delay, let us go over the main elements of Markdown and what the resulting HTML looks like!&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;headings&quot;&gt;Headings&lt;&#x2F;h1&gt;
+&lt;p&gt;Headings from &lt;code&gt;h1&lt;&#x2F;code&gt; through &lt;code&gt;h6&lt;&#x2F;code&gt; are constructed with a &lt;code&gt;#&lt;&#x2F;code&gt; for each level:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span style=&quot;color:#5cb3fa;&quot;&gt;# h1 Heading
+## h2 Heading
+### h3 Heading
+#### h4 Heading
+##### h5 Heading
+###### h6 Heading
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;The HTML looks like this:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;h1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;h1 Heading&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;h1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;h2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;h2 Heading&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;h2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;h3&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;h3 Heading&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;h3&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;h4&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;h4 Heading&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;h4&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;h5&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;h5 Heading&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;h5&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;h6&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;h6 Heading&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;h6&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h1 id=&quot;comments&quot;&gt;Comments&lt;&#x2F;h1&gt;
+&lt;p&gt;Comments should be HTML compatible.&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span style=&quot;font-style:italic;color:#5f697a;&quot;&gt;&amp;lt;!--
+This is a comment
+--&amp;gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Comment below should &lt;strong&gt;NOT&lt;&#x2F;strong&gt; be seen:&lt;&#x2F;p&gt;
+&lt;!--
+This is a comment
+--&gt;
+&lt;h1 id=&quot;horizontal-rules&quot;&gt;Horizontal Rules&lt;&#x2F;h1&gt;
+&lt;p&gt;The HTML &lt;code&gt;&amp;lt;hr&amp;gt;&lt;&#x2F;code&gt; element is for creating a &amp;quot;thematic break&amp;quot; between paragraph-level elements.
+In Markdown, you can create a &lt;code&gt;&amp;lt;hr&amp;gt;&lt;&#x2F;code&gt; with any of the following:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;___&lt;&#x2F;code&gt;: three consecutive underscores&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;---&lt;&#x2F;code&gt;: three consecutive dashes&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;***&lt;&#x2F;code&gt;: three consecutive asterisks&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;The rendered output looks like this:&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;hr &#x2F;&gt;
+&lt;hr &#x2F;&gt;
+&lt;h1 id=&quot;body&quot;&gt;Body&lt;&#x2F;h1&gt;
+&lt;p&gt;Body written as normal, plain text will be wrapped with &lt;code&gt;&amp;lt;p&amp;gt;&amp;lt;&#x2F;p&amp;gt;&lt;&#x2F;code&gt; tags in the rendered HTML.&lt;&#x2F;p&gt;
+&lt;p&gt;So this body:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;Lorem ipsum dolor sit amet, graecis denique ei vel, at duo primis mandamus. Et legere ocurreret pri,
+animal tacimates complectitur ad cum. Cu eum inermis inimicus efficiendi. Labore officiis his ex,
+soluta officiis concludaturque ei qui, vide sensibus vim ad.
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;The HTML looks like this:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;p&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;Lorem ipsum dolor sit amet, graecis denique ei vel, at duo primis mandamus. Et legere ocurreret pri, animal tacimates complectitur ad cum. Cu eum inermis inimicus efficiendi. Labore officiis his ex, soluta officiis concludaturque ei qui, vide sensibus vim ad.&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;p&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;A &lt;strong&gt;line break&lt;&#x2F;strong&gt; can be done with one blank line.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;inline-html&quot;&gt;Inline HTML&lt;&#x2F;h1&gt;
+&lt;p&gt;If you need a certain HTML tag (with a class) you can simply use HTML:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;Paragraph in Markdown.
+
+&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;div &lt;&#x2F;span&gt;&lt;span style=&quot;color:#db9d63;&quot;&gt;class&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#9acc76;&quot;&gt;&amp;quot;class&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+    This is &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;b&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;HTML&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;b&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;div&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+
+Paragraph in Markdown.
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h1 id=&quot;emphasis&quot;&gt;Emphasis&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;bold&quot;&gt;Bold&lt;&#x2F;h2&gt;
+&lt;p&gt;For emphasizing a snippet of text with a heavier font-weight.&lt;&#x2F;p&gt;
+&lt;p&gt;The following snippet of text is &lt;strong&gt;rendered as bold text&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span style=&quot;color:#f0c678;&quot;&gt;**rendered as bold text**
+__rendered as bold text__
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;The HTML looks like this:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;strong&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;rendered as bold text&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;strong&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h2 id=&quot;italics&quot;&gt;Italics&lt;&#x2F;h2&gt;
+&lt;p&gt;For emphasizing a snippet of text with italics.&lt;&#x2F;p&gt;
+&lt;p&gt;The following snippet of text is &lt;em&gt;rendered as italicized text&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span style=&quot;color:#cd74e8;&quot;&gt;*rendered as italicized text*
+_rendered as italicized text_
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;The HTML looks like this:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;em&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;rendered as italicized text&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;em&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h2 id=&quot;strikethrough&quot;&gt;Strikethrough&lt;&#x2F;h2&gt;
+&lt;p&gt;In &lt;a href=&quot;https:&#x2F;&#x2F;github.github.com&#x2F;gfm&#x2F;&quot;&gt;[GFM]^(GitHub flavored Markdown)&lt;&#x2F;a&gt; you can do strikethroughs.&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;~~Strike through this text.~~
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;The HTML looks like this:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;del&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;Strike through this text.&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;del&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h1 id=&quot;blockquotes&quot;&gt;Blockquotes&lt;&#x2F;h1&gt;
+&lt;p&gt;For quoting blocks of content from another source within your document.&lt;&#x2F;p&gt;
+&lt;p&gt;Add &lt;code&gt;&amp;gt;&lt;&#x2F;code&gt; before any text you want to quote:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span style=&quot;color:#db9d63;&quot;&gt;&amp;gt; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f0c678;&quot;&gt;**Fusion Drive**&lt;&#x2F;span&gt;&lt;span style=&quot;color:#db9d63;&quot;&gt; combines a hard drive with a flash storage (solid-state drive) and presents it as a single logical volume with the space of both drives combined.
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;The rendered output looks like this:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Fusion Drive&lt;&#x2F;strong&gt; combines a hard drive with a flash storage (solid-state drive) and presents it as a single logical volume with the space of both drives combined.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;The HTML looks like this:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;blockquote&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;p&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+    &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;strong&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;Fusion Drive&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;strong&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt; combines a hard drive with a flash storage (solid-state drive) and presents it as a single logical volume with the space of both drives combined.
+  &amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;p&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;blockquote&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Blockquotes can also be nested:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span style=&quot;color:#db9d63;&quot;&gt;&amp;gt; Donec massa lacus, ultricies a ullamcorper in, fermentum sed augue.
+Nunc augue augue, aliquam non hendrerit ac, commodo vel nisi.
+&amp;gt;&amp;gt; Sed adipiscing elit vitae augue consectetur a gravida nunc vehicula. Donec auctor
+odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac eu diam.
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;The rendered output looks like this:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Donec massa lacus, ultricies a ullamcorper in, fermentum sed augue.
+Nunc augue augue, aliquam non hendrerit ac, commodo vel nisi.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Sed adipiscing elit vitae augue consectetur a gravida nunc vehicula. Donec auctor
+odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac eu diam.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;h1 id=&quot;lists&quot;&gt;Lists&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;unordered&quot;&gt;Unordered&lt;&#x2F;h2&gt;
+&lt;p&gt;A list of items in which the order of the items does not explicitly matter.&lt;&#x2F;p&gt;
+&lt;p&gt;You may use any of the following symbols to denote bullets for each list item:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;* valid bullet
+- valid bullet
++ valid bullet
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;For example:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;* Lorem ipsum dolor sit amet
+* Consectetur adipiscing elit
+* Integer molestie lorem at massa
+* Facilisis in pretium nisl aliquet
+* Nulla volutpat aliquam velit
+  * Phasellus iaculis neque
+  * Purus sodales ultricies
+  * Vestibulum laoreet porttitor sem
+  * Ac tristique libero volutpat at
+* Faucibus porta lacus fringilla vel
+* Aenean sit amet erat nunc
+* Eget porttitor lorem
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;The rendered output looks like this:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet&lt;&#x2F;li&gt;
+&lt;li&gt;Consectetur adipiscing elit&lt;&#x2F;li&gt;
+&lt;li&gt;Integer molestie lorem at massa&lt;&#x2F;li&gt;
+&lt;li&gt;Facilisis in pretium nisl aliquet&lt;&#x2F;li&gt;
+&lt;li&gt;Nulla volutpat aliquam velit
+&lt;ul&gt;
+&lt;li&gt;Phasellus iaculis neque&lt;&#x2F;li&gt;
+&lt;li&gt;Purus sodales ultricies&lt;&#x2F;li&gt;
+&lt;li&gt;Vestibulum laoreet porttitor sem&lt;&#x2F;li&gt;
+&lt;li&gt;Ac tristique libero volutpat at&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;Faucibus porta lacus fringilla vel&lt;&#x2F;li&gt;
+&lt;li&gt;Aenean sit amet erat nunc&lt;&#x2F;li&gt;
+&lt;li&gt;Eget porttitor lorem&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;The HTML looks like this:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;ul&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;Lorem ipsum dolor sit amet&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;Consectetur adipiscing elit&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;Integer molestie lorem at massa&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;Facilisis in pretium nisl aliquet&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;Nulla volutpat aliquam velit
+    &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;ul&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+      &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;Phasellus iaculis neque&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+      &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;Purus sodales ultricies&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+      &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;Vestibulum laoreet porttitor sem&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+      &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;Ac tristique libero volutpat at&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+    &amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;ul&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+  &amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;Faucibus porta lacus fringilla vel&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;Aenean sit amet erat nunc&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;Eget porttitor lorem&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;ul&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h2 id=&quot;ordered&quot;&gt;Ordered&lt;&#x2F;h2&gt;
+&lt;p&gt;A list of items in which the order of items does explicitly matter.&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;1. Lorem ipsum dolor sit amet
+2. Consectetur adipiscing elit
+3. Integer molestie lorem at massa
+4. Facilisis in pretium nisl aliquet
+5. Nulla volutpat aliquam velit
+6. Faucibus porta lacus fringilla vel
+7. Aenean sit amet erat nunc
+8. Eget porttitor lorem
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;The rendered output looks like this:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet&lt;&#x2F;li&gt;
+&lt;li&gt;Consectetur adipiscing elit&lt;&#x2F;li&gt;
+&lt;li&gt;Integer molestie lorem at massa&lt;&#x2F;li&gt;
+&lt;li&gt;Facilisis in pretium nisl aliquet&lt;&#x2F;li&gt;
+&lt;li&gt;Nulla volutpat aliquam velit&lt;&#x2F;li&gt;
+&lt;li&gt;Faucibus porta lacus fringilla vel&lt;&#x2F;li&gt;
+&lt;li&gt;Aenean sit amet erat nunc&lt;&#x2F;li&gt;
+&lt;li&gt;Eget porttitor lorem&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;The HTML looks like this:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;ol&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;Lorem ipsum dolor sit amet&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;Consectetur adipiscing elit&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;Integer molestie lorem at massa&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;Facilisis in pretium nisl aliquet&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;Nulla volutpat aliquam velit&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;Faucibus porta lacus fringilla vel&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;Aenean sit amet erat nunc&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;Eget porttitor lorem&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;li&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;ol&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h2 id=&quot;task-lists&quot;&gt;Task Lists&lt;&#x2F;h2&gt;
+&lt;p&gt;Task lists allow you to create a list of items with checkboxes. To create a task list, add dashes (&lt;code&gt;-&lt;&#x2F;code&gt;) and brackets with a space (&lt;code&gt;[ ]&lt;&#x2F;code&gt;) before task list items. To select a checkbox, add an x in between the brackets (&lt;code&gt;[x]&lt;&#x2F;code&gt;).&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;The rendered output looks like this:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot; checked=&quot;&quot;&#x2F;&gt;
+Write the press release&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
+Update the website&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&#x2F;&gt;
+Contact the media&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;code&quot;&gt;Code&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;inline-code&quot;&gt;Inline Code&lt;&#x2F;h2&gt;
+&lt;p&gt;Wrap inline snippets of code with &lt;code&gt;`&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;In this example, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#9acc76;&quot;&gt;`&amp;lt;section&amp;gt;&amp;lt;&#x2F;section&amp;gt;`&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt; should be wrapped as &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f0c678;&quot;&gt;**code**&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;.
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;The rendered output looks like this:&lt;&#x2F;p&gt;
+&lt;p&gt;In this example, &lt;code&gt;&amp;lt;section&amp;gt;&amp;lt;&#x2F;section&amp;gt;&lt;&#x2F;code&gt; should be wrapped as &lt;strong&gt;code&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;The HTML looks like this:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;p&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+  In this example, &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;code&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#db9d63;&quot;&gt;&amp;amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;section&lt;&#x2F;span&gt;&lt;span style=&quot;color:#db9d63;&quot;&gt;&amp;amp;gt;&amp;amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&#x2F;section&lt;&#x2F;span&gt;&lt;span style=&quot;color:#db9d63;&quot;&gt;&amp;amp;gt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;code&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt; should be wrapped with &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;strong&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;code&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;strong&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;.
+&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;p&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h2 id=&quot;indented-code&quot;&gt;Indented Code&lt;&#x2F;h2&gt;
+&lt;p&gt;Or indent several lines of code by at least four spaces, as in:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    &#x2F;&#x2F; Some comments
+    line 1 of code
+    line 2 of code
+    line 3 of code
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;The rendered output looks like this:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code&gt;&#x2F;&#x2F; Some comments
+line 1 of code
+line 2 of code
+line 3 of code
+&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;The HTML looks like this:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;pre&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;code&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+    &#x2F;&#x2F; Some comments
+    line 1 of code
+    line 2 of code
+    line 3 of code
+  &amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;code&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;pre&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h1 id=&quot;tables&quot;&gt;Tables&lt;&#x2F;h1&gt;
+&lt;p&gt;Tables are created by adding pipes as dividers between each cell, and by adding a line of dashes (also separated by bars) beneath the header. Note that the pipes do not need to be vertically aligned.&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;| Option | Description |
+| ------ | ----------- |
+| data   | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default. |
+| ext    | extension to be used for dest files. |
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;The rendered output looks like this:&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Option&lt;&#x2F;th&gt;&lt;th&gt;Description&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;data&lt;&#x2F;td&gt;&lt;td&gt;path to data files to supply the data that will be passed into templates.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;engine&lt;&#x2F;td&gt;&lt;td&gt;engine to be used for processing templates. Handlebars is the default.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;ext&lt;&#x2F;td&gt;&lt;td&gt;extension to be used for dest files.&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;p&gt;The HTML looks like this:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;table&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;thead&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+    &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;tr&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+      &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;th&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;Option&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;th&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+      &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;th&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;Description&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;th&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+    &amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;tr&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+  &amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;thead&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+  &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;tbody&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+    &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;tr&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+      &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;td&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;data&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;td&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+      &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;td&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;path to data files to supply the data that will be passed into templates.&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;td&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+    &amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;tr&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+    &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;tr&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+      &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;td&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;engine&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;td&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+      &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;td&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;engine to be used for processing templates. Handlebars is the default.&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;td&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+    &amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;tr&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+    &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;tr&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+      &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;td&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;ext&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;td&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+      &amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;td&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;extension to be used for dest files.&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;td&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+    &amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;tr&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+  &amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;tbody&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;table&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h1 id=&quot;links&quot;&gt;Links&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;basic-link&quot;&gt;Basic Link&lt;&#x2F;h2&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span style=&quot;color:#db9d63;&quot;&gt;&amp;lt;https:&#x2F;&#x2F;assemble.io&amp;gt;
+&amp;lt;contact@revolunet.com&amp;gt;
+[Assemble](https:&#x2F;&#x2F;assemble.io)
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;The rendered output looks like this (hover over the link, there is no tooltip):&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;assemble.io&quot;&gt;https:&#x2F;&#x2F;assemble.io&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;mailto:contact@revolunet.com&quot;&gt;contact@revolunet.com&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;assemble.io&quot;&gt;Assemble&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;The HTML looks like this:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;a &lt;&#x2F;span&gt;&lt;span style=&quot;color:#db9d63;&quot;&gt;href&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#9acc76;&quot;&gt;&amp;quot;https:&#x2F;&#x2F;assemble.io&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;https:&#x2F;&#x2F;assemble.io&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;a&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;a &lt;&#x2F;span&gt;&lt;span style=&quot;color:#db9d63;&quot;&gt;href&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#9acc76;&quot;&gt;&amp;quot;mailto:contact@revolunet.com&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;contact@revolunet.com&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;a&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;a &lt;&#x2F;span&gt;&lt;span style=&quot;color:#db9d63;&quot;&gt;href&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#9acc76;&quot;&gt;&amp;quot;https:&#x2F;&#x2F;assemble.io&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;Assemble&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;a&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h2 id=&quot;add-a-title&quot;&gt;Add a Title&lt;&#x2F;h2&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span style=&quot;color:#db9d63;&quot;&gt;[Upstage](https:&#x2F;&#x2F;github.com&#x2F;upstage&#x2F; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;&amp;quot;Visit Upstage!&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#db9d63;&quot;&gt;)
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;The rendered output looks like this (hover over the link, there should be a tooltip):&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;upstage&#x2F;&quot; title=&quot;Visit Upstage!&quot;&gt;Upstage&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;The HTML looks like this:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;lt;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;a &lt;&#x2F;span&gt;&lt;span style=&quot;color:#db9d63;&quot;&gt;href&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#9acc76;&quot;&gt;&amp;quot;https:&#x2F;&#x2F;github.com&#x2F;upstage&#x2F;&amp;quot; &lt;&#x2F;span&gt;&lt;span style=&quot;color:#db9d63;&quot;&gt;title&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;=&lt;&#x2F;span&gt;&lt;span style=&quot;color:#9acc76;&quot;&gt;&amp;quot;Visit Upstage!&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;Upstage&amp;lt;&#x2F;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;a&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;&amp;gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h2 id=&quot;named-anchors&quot;&gt;Named Anchors&lt;&#x2F;h2&gt;
+&lt;p&gt;Named anchors enable you to jump to the specified anchor point on the same page. For example, each of these chapters:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span style=&quot;color:#5cb3fa;&quot;&gt;## Table of Contents
+  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;* &lt;&#x2F;span&gt;&lt;span style=&quot;color:#db9d63;&quot;&gt;[Chapter 1](#chapter-1)
+  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;* &lt;&#x2F;span&gt;&lt;span style=&quot;color:#db9d63;&quot;&gt;[Chapter 2](#chapter-2)
+  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;* &lt;&#x2F;span&gt;&lt;span style=&quot;color:#db9d63;&quot;&gt;[Chapter 3](#chapter-3)
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;will jump to these sections:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span style=&quot;color:#5cb3fa;&quot;&gt;## Chapter 1 &amp;lt;a id=&amp;quot;chapter-1&amp;quot;&amp;gt;&amp;lt;&#x2F;a&amp;gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;Content for chapter one.
+
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#5cb3fa;&quot;&gt;## Chapter 2 &amp;lt;a id=&amp;quot;chapter-2&amp;quot;&amp;gt;&amp;lt;&#x2F;a&amp;gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;Content for chapter one.
+
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#5cb3fa;&quot;&gt;## Chapter 3 &amp;lt;a id=&amp;quot;chapter-3&amp;quot;&amp;gt;&amp;lt;&#x2F;a&amp;gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;Content for chapter one.
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h1 id=&quot;footnotes&quot;&gt;Footnotes&lt;&#x2F;h1&gt;
+&lt;p&gt;Footnotes allow you to add notes and references without cluttering the body of the document. When you create a footnote, a superscript number with a link appears where you added the footnote reference. Readers can click the link to jump to the content of the footnote at the bottom of the page.&lt;&#x2F;p&gt;
+&lt;p&gt;To create a footnote reference, add a caret and an identifier inside brackets (&lt;code&gt;[^1]&lt;&#x2F;code&gt;). Identifiers can be numbers or words, but they can’t contain spaces or tabs. Identifiers only correlate the footnote reference with the footnote itself — in the output, footnotes are numbered sequentially.&lt;&#x2F;p&gt;
+&lt;p&gt;Add the footnote using another caret and number inside brackets with a colon and text (&lt;code&gt;[^1]: My footnote.&lt;&#x2F;code&gt;). You don’t have to put footnotes at the end of the document. You can put them anywhere except inside other elements like lists, block quotes, and tables.&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;This is a digital footnote&lt;&#x2F;span&gt;&lt;span style=&quot;color:#db9d63;&quot;&gt;[^1]&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;.
+This is a footnote with &amp;quot;label&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#db9d63;&quot;&gt;[^label]
+
+[^1]: This is a digital footnote
+[^label]: This is a footnote with &amp;quot;label&amp;quot;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;This is a digital footnote&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;This is a footnote with &amp;quot;label&amp;quot;&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#label&quot;&gt;2&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;&lt;&#x2F;p&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;1&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;&#x2F;sup&gt;
+&lt;p&gt;This is a digital footnote
+&lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#label&quot;&gt;2&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;: This is a footnote with &amp;quot;label&amp;quot;&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+&lt;h1 id=&quot;images&quot;&gt;Images&lt;&#x2F;h1&gt;
+&lt;p&gt;Images have a similar syntax to links but include a preceding exclamation point.&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;![Minion](https:&#x2F;&#x2F;octodex.github.com&#x2F;images&#x2F;minion.png)
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;octodex.github.com&#x2F;images&#x2F;minion.png&quot; alt=&quot;Minion&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;or:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;![Alt text](https:&#x2F;&#x2F;octodex.github.com&#x2F;images&#x2F;stormtroopocat.jpg &lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;&amp;quot;The Stormtroopocat&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;)
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;octodex.github.com&#x2F;images&#x2F;stormtroopocat.jpg&quot; alt=&quot;Alt text&quot; title=&quot;The Stormtroopocat&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Like links, images also have a footnote style syntax:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;![Alt text][&lt;&#x2F;span&gt;&lt;span style=&quot;color:#db9d63;&quot;&gt;id&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;]
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;octodex.github.com&#x2F;images&#x2F;dojocat.jpg&quot; alt=&quot;Alt text&quot; title=&quot;The Dojocat&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;With a reference later in the document defining the URL location:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;&lt;span style=&quot;color:#db9d63;&quot;&gt;[id]: https:&#x2F;&#x2F;octodex.github.com&#x2F;images&#x2F;dojocat.jpg  &lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;&amp;quot;The Dojocat&amp;quot;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;</description>
+        </item>
+        <item>
+            <title>Eleventh Post</title>
+            <pubDate>Sun, 29 Sep 2019 00:00:00 +0000</pubDate>
+            <link>https://blog.etheve.eu/posts/post-11/</link>
+            <guid>https://blog.etheve.eu/posts/post-11/</guid>
+            <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac iaculis libero. Suspendisse et sodales tellus, ut sodales mi. Proin scelerisque est nec laoreet aliquet. Aenean et nunc at mi efficitur sollicitudin at quis diam. Aenean mi massa, sollicitudin eu condimentum sed, sodales ut nisi. Aenean iaculis ante id gravida hendrerit. Nulla nisi neque, facilisis vitae viverra ac, interdum malesuada quam. Quisque laoreet leo nec lectus lacinia, in lacinia enim tempor.&lt;&#x2F;p&gt;
+</description>
+        </item>
+        <item>
+            <title>Tenth Post</title>
+            <pubDate>Mon, 29 Jul 2019 00:00:00 +0000</pubDate>
+            <link>https://blog.etheve.eu/posts/post-10/</link>
+            <guid>https://blog.etheve.eu/posts/post-10/</guid>
+            <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac iaculis libero. Suspendisse et sodales tellus, ut sodales mi. Proin scelerisque est nec laoreet aliquet. Aenean et nunc at mi efficitur sollicitudin at quis diam. Aenean mi massa, sollicitudin eu condimentum sed, sodales ut nisi. Aenean iaculis ante id gravida hendrerit. Nulla nisi neque, facilisis vitae viverra ac, interdum malesuada quam. Quisque laoreet leo nec lectus lacinia, in lacinia enim tempor.&lt;&#x2F;p&gt;
+</description>
+        </item>
+        <item>
+            <title>Ninth Post</title>
+            <pubDate>Wed, 29 May 2019 00:00:00 +0000</pubDate>
+            <link>https://blog.etheve.eu/posts/post-9/</link>
+            <guid>https://blog.etheve.eu/posts/post-9/</guid>
+            <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac iaculis libero. Suspendisse et sodales tellus, ut sodales mi. Proin scelerisque est nec laoreet aliquet. Aenean et nunc at mi efficitur sollicitudin at quis diam. Aenean mi massa, sollicitudin eu condimentum sed, sodales ut nisi. Aenean iaculis ante id gravida hendrerit. Nulla nisi neque, facilisis vitae viverra ac, interdum malesuada quam. Quisque laoreet leo nec lectus lacinia, in lacinia enim tempor.&lt;&#x2F;p&gt;
+</description>
+        </item>
+        <item>
+            <title>Eighth Post</title>
+            <pubDate>Sun, 28 Apr 2019 00:00:00 +0000</pubDate>
+            <link>https://blog.etheve.eu/posts/post-8/</link>
+            <guid>https://blog.etheve.eu/posts/post-8/</guid>
+            <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac iaculis libero. Suspendisse et sodales tellus, ut sodales mi. Proin scelerisque est nec laoreet aliquet. Aenean et nunc at mi efficitur sollicitudin at quis diam. Aenean mi massa, sollicitudin eu condimentum sed, sodales ut nisi. Aenean iaculis ante id gravida hendrerit. Nulla nisi neque, facilisis vitae viverra ac, interdum malesuada quam. Quisque laoreet leo nec lectus lacinia, in lacinia enim tempor.&lt;&#x2F;p&gt;
+</description>
+        </item>
+        <item>
+            <title>Seventh Post</title>
+            <pubDate>Wed, 27 Mar 2019 00:00:00 +0000</pubDate>
+            <link>https://blog.etheve.eu/posts/post-7/</link>
+            <guid>https://blog.etheve.eu/posts/post-7/</guid>
+            <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac iaculis libero. Suspendisse et sodales tellus, ut sodales mi. Proin scelerisque est nec laoreet aliquet. Aenean et nunc at mi efficitur sollicitudin at quis diam. Aenean mi massa, sollicitudin eu condimentum sed, sodales ut nisi. Aenean iaculis ante id gravida hendrerit. Nulla nisi neque, facilisis vitae viverra ac, interdum malesuada quam. Quisque laoreet leo nec lectus lacinia, in lacinia enim tempor.&lt;&#x2F;p&gt;
+</description>
+        </item>
+        <item>
+            <title>Sixth Post</title>
+            <pubDate>Tue, 26 Feb 2019 00:00:00 +0000</pubDate>
+            <link>https://blog.etheve.eu/posts/post-6/</link>
+            <guid>https://blog.etheve.eu/posts/post-6/</guid>
+            <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac iaculis libero. Suspendisse et sodales tellus, ut sodales mi. Proin scelerisque est nec laoreet aliquet. Aenean et nunc at mi efficitur sollicitudin at quis diam. Aenean mi massa, sollicitudin eu condimentum sed, sodales ut nisi. Aenean iaculis ante id gravida hendrerit. Nulla nisi neque, facilisis vitae viverra ac, interdum malesuada quam. Quisque laoreet leo nec lectus lacinia, in lacinia enim tempor.&lt;&#x2F;p&gt;
+</description>
+        </item>
+        <item>
+            <title>Fifth Post</title>
+            <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
+            <link>https://blog.etheve.eu/posts/post-5/</link>
+            <guid>https://blog.etheve.eu/posts/post-5/</guid>
+            <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac iaculis libero. Suspendisse et sodales tellus, ut sodales mi. Proin scelerisque est nec laoreet aliquet. Aenean et nunc at mi efficitur sollicitudin at quis diam. Aenean mi massa, sollicitudin eu condimentum sed, sodales ut nisi. Aenean iaculis ante id gravida hendrerit. Nulla nisi neque, facilisis vitae viverra ac, interdum malesuada quam. Quisque laoreet leo nec lectus lacinia, in lacinia enim tempor.&lt;&#x2F;p&gt;
+</description>
+        </item>
+        <item>
+            <title>Fourth Post</title>
+            <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
+            <link>https://blog.etheve.eu/posts/post-4/</link>
+            <guid>https://blog.etheve.eu/posts/post-4/</guid>
+            <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac iaculis libero. Suspendisse et sodales tellus, ut sodales mi. Proin scelerisque est nec laoreet aliquet. Aenean et nunc at mi efficitur sollicitudin at quis diam. Aenean mi massa, sollicitudin eu condimentum sed, sodales ut nisi. Aenean iaculis ante id gravida hendrerit. Nulla nisi neque, facilisis vitae viverra ac, interdum malesuada quam. Quisque laoreet leo nec lectus lacinia, in lacinia enim tempor.&lt;&#x2F;p&gt;
+</description>
+        </item>
+        <item>
+            <title>Third Post</title>
+            <pubDate>Sun, 23 Sep 2018 00:00:00 +0000</pubDate>
+            <link>https://blog.etheve.eu/posts/post-3/</link>
+            <guid>https://blog.etheve.eu/posts/post-3/</guid>
+            <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac iaculis libero. Suspendisse et sodales tellus, ut sodales mi. Proin scelerisque est nec laoreet aliquet. Aenean et nunc at mi efficitur sollicitudin at quis diam. Aenean mi massa, sollicitudin eu condimentum sed, sodales ut nisi. Aenean iaculis ante id gravida hendrerit. Nulla nisi neque, facilisis vitae viverra ac, interdum malesuada quam. Quisque laoreet leo nec lectus lacinia, in lacinia enim tempor.&lt;&#x2F;p&gt;
+</description>
+        </item>
+        <item>
+            <title>Second Post</title>
+            <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
+            <link>https://blog.etheve.eu/posts/post-2/</link>
+            <guid>https://blog.etheve.eu/posts/post-2/</guid>
+            <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac iaculis libero. Suspendisse et sodales tellus, ut sodales mi. Proin scelerisque est nec laoreet aliquet. Aenean et nunc at mi efficitur sollicitudin at quis diam. Aenean mi massa, sollicitudin eu condimentum sed, sodales ut nisi. Aenean iaculis ante id gravida hendrerit. Nulla nisi neque, facilisis vitae viverra ac, interdum malesuada quam. Quisque laoreet leo nec lectus lacinia, in lacinia enim tempor.&lt;&#x2F;p&gt;
+</description>
+        </item>
+        <item>
+            <title>First Post</title>
+            <pubDate>Tue, 21 Aug 2018 00:00:00 +0000</pubDate>
+            <link>https://blog.etheve.eu/posts/post-1/</link>
+            <guid>https://blog.etheve.eu/posts/post-1/</guid>
+            <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac iaculis libero. Suspendisse et sodales tellus, ut sodales mi. Proin scelerisque est nec laoreet aliquet. Aenean et nunc at mi efficitur sollicitudin at quis diam. Aenean mi massa, sollicitudin eu condimentum sed, sodales ut nisi. Aenean iaculis ante id gravida hendrerit. Nulla nisi neque, facilisis vitae viverra ac, interdum malesuada quam. Quisque laoreet leo nec lectus lacinia, in lacinia enim tempor.&lt;&#x2F;p&gt;
+</description>
+        </item>
+        <item>
+            <title>Zeroth Post</title>
+            <pubDate>Mon, 20 Aug 2018 00:00:00 +0000</pubDate>
+            <link>https://blog.etheve.eu/posts/post-0/</link>
+            <guid>https://blog.etheve.eu/posts/post-0/</guid>
+            <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac iaculis libero. Suspendisse et sodales tellus, ut sodales mi. Proin scelerisque est nec laoreet aliquet. Aenean et nunc at mi efficitur sollicitudin at quis diam. Aenean mi massa, sollicitudin eu condimentum sed, sodales ut nisi. Aenean iaculis ante id gravida hendrerit. Nulla nisi neque, facilisis vitae viverra ac, interdum malesuada quam. Quisque laoreet leo nec lectus lacinia, in lacinia enim tempor.&lt;&#x2F;p&gt;
+</description>
+        </item>
+    </channel>
+</rss>

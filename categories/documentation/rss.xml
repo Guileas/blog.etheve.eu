@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>Guileas blog - Documentation</title>
+        <link>https://blog.etheve.eu</link>
+        <description></description>
+        <generator>Zola</generator>
+        <language>en</language>
+        <atom:link href="https://blog.etheve.eu/categories/documentation/rss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Mon, 31 Aug 2020 00:00:00 +0000</lastBuildDate>
+        <item>
+            <title>Welcome to DeepThought</title>
+            <pubDate>Mon, 31 Aug 2020 00:00:00 +0000</pubDate>
+            <link>https://blog.etheve.eu/docs/welcome-to-deep-thought/</link>
+            <guid>https://blog.etheve.eu/docs/welcome-to-deep-thought/</guid>
+            <description>&lt;p&gt;This is a small example post of stuff you can do with the &lt;code&gt;DeepThought&lt;&#x2F;code&gt; theme.
+We&#x27;ll try to represent all possible markdown and shortcode combinations here
+so you can develop easily.&lt;&#x2F;p&gt;
+</description>
+        </item>
+        <item>
+            <title>Config Options</title>
+            <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
+            <link>https://blog.etheve.eu/docs/config-options/</link>
+            <guid>https://blog.etheve.eu/docs/config-options/</guid>
+            <description>&lt;p&gt;DeepThought theme provides some config option like option to add favicon to your site, add avatar for profile, setup social links for the profile etc&lt;&#x2F;p&gt;
+</description>
+        </item>
+        <item>
+            <title>Extended Shortcodes</title>
+            <pubDate>Sat, 29 Aug 2020 00:00:00 +0000</pubDate>
+            <link>https://blog.etheve.eu/docs/extended-shortcodes/</link>
+            <guid>https://blog.etheve.eu/docs/extended-shortcodes/</guid>
+            <description>&lt;p&gt;DeepThought theme provides multiple shortcodes on top of built-in ones in Zola.&lt;&#x2F;p&gt;
+</description>
+        </item>
+    </channel>
+</rss>

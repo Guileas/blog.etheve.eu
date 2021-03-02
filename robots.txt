@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://blog.etheve.eu/sitemap.xml
